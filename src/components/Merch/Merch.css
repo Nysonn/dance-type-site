@@ -1,0 +1,75 @@
+/* Merch.css */
+
+.merch-container {
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+  }
+  
+  .merch-background {
+    background-image: url('background-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .merch-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .merch-content {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .merch-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .merch-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .merch-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .merch-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .merch-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .merch-link {
+    display: inline-block;
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.3s;
+  }
+  
+  .merch-link:hover {
+    color: #f4f4f4;
+  }
+  

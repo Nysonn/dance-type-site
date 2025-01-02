@@ -1,0 +1,95 @@
+.tour {
+  padding: 6rem 2rem;
+  background-color: #111;
+}
+
+.tour__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tour__title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tour__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tour__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #000;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.tour__item:hover {
+  transform: translateX(10px);
+}
+
+.tour__info {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.tour__date {
+  font-size: 1.1rem;
+  font-weight: bold;
+  min-width: 120px;
+}
+
+.tour__venue {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.tour__location {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.tour__button {
+  padding: 0.8rem 1.5rem;
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  transition: transform 0.3s ease;
+}
+
+.tour__button:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .tour {
+    padding: 4rem 1rem;
+  }
+
+  .tour__item {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .tour__info {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .tour__date {
+    min-width: auto;
+  }
+}

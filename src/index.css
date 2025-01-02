@@ -1,0 +1,47 @@
+:root {
+    /* Colors */
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --accent-color: #ff0000;
+    
+    /* Typography */
+    --heading-font: 'Arial', sans-serif;
+    --body-font: 'Helvetica', sans-serif;
+    
+    /* Spacing */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+    
+    /* Breakpoints */
+    --mobile: 320px;
+    --tablet: 768px;
+    --desktop: 1024px;
+  }
+
+  @import './variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+@media (max-width: var(--tablet)) {
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+}

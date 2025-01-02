@@ -1,0 +1,64 @@
+/* Contact.css */
+
+.contact-container {
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+  }
+  
+  .contact-background {
+    background-image: url('background-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .contact-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-content {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .contact-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .contact-section {
+    margin-bottom: 30px;
+  }
+  
+  .contact-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    margin-bottom: 15px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact-info a:hover {
+    color: #00bcd4;
+  }
+  
