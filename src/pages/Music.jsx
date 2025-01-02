@@ -1,6 +1,6 @@
-import MusicSection from '../components/MusicSection';
+import MusicSection from '../components/MusicSection/MusicSection';
 
-export default function MusicSection() {
+export default function MusicPage() {
     return (
         <MusicSection />
     );
