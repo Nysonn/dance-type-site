@@ -9,8 +9,70 @@ const tourDates = [
     location: "Miami, FL",
     ticketLink: "#"
   },
-  // Add more tour dates as needed
-]
+  {
+    id: 2,
+    date: "Apr 5, 2024",
+    venue: "Coachella Valley Music and Arts Festival",
+    location: "Indio, CA",
+    ticketLink: "#"
+  },
+  {
+    id: 3,
+    date: "May 20, 2024",
+    venue: "Tomorrowland Winter",
+    location: "Alpe d'Huez, France",
+    ticketLink: "#"
+  },
+  {
+    id: 4,
+    date: "Jun 8, 2024",
+    venue: "Electric Daisy Carnival",
+    location: "Las Vegas, NV",
+    ticketLink: "#"
+  },
+  {
+    id: 5,
+    date: "Jul 14, 2024",
+    venue: "Creamfields",
+    location: "Daresbury, UK",
+    ticketLink: "#"
+  },
+  {
+    id: 6,
+    date: "Aug 3, 2024",
+    venue: "Lollapalooza",
+    location: "Chicago, IL",
+    ticketLink: "#"
+  },
+  {
+    id: 7,
+    date: "Sep 10, 2024",
+    venue: "Electric Zoo",
+    location: "New York, NY",
+    ticketLink: "#"
+  },
+  {
+    id: 8,
+    date: "Oct 7, 2024",
+    venue: "Amsterdam Dance Event",
+    location: "Amsterdam, Netherlands",
+    ticketLink: "#"
+  },
+  {
+    id: 9,
+    date: "Nov 11, 2024",
+    venue: "Day Zero Festival",
+    location: "Tulum, Mexico",
+    ticketLink: "#"
+  },
+  {
+    id: 10,
+    date: "Dec 31, 2024",
+    venue: "NYE Countdown Festival",
+    location: "Sydney, Australia",
+    ticketLink: "#"
+  }
+];
 
 function TourDates() {
   return (

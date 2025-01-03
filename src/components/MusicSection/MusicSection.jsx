@@ -1,14 +1,28 @@
 import { motion } from 'framer-motion'
 import './MusicSection.css'
+import Artwork1 from '../../../public/images/dibby-duos-pic.jpg'
+import Artwork2 from '../../../public/images/wendy-wel.jpg'
+import Artwork3 from '../../../public/images/yan-krukau.jpg'
 
 const releases = [
   {
     id: 1,
-    title: "Latest Single",
-    image: "/path-to-album-cover.jpg",
+    title: "Rave Nights",
+    image: Artwork1,
     streamLink: "#"
   },
-  // Add more releases as needed
+  {
+    id: 2,
+    title: "Ibiza In Frames",
+    image: Artwork2,
+    streamLink: "#"
+  },
+  {
+    id: 3,
+    title: "Dance With Me",
+    image: Artwork3,
+    streamLink: "#"
+  }
 ]
 
 function MusicSection() {

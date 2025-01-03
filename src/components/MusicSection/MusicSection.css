@@ -6,6 +6,9 @@
 .music__container {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .music__title {
@@ -17,12 +20,15 @@
 }
 
 .music__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
+  justify-content: center;
 }
 
 .music__card {
+  flex: 1 1 calc(33.33% - 2rem); /* Adjust width to fit three cards per row with spacing */
+  max-width: 450px;
   position: relative;
   overflow: hidden;
 }
@@ -87,13 +93,25 @@
   .music {
     padding: 4rem 1rem;
   }
-  
+
   .music__title {
     font-size: 2rem;
   }
-  
+
   .music__grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .music__card {
+    flex: 1 1 calc(50% - 1.5rem);
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 480px) {
+  .music__card {
+    flex: 1 1 100%; /* Adjust width for single card per row */
+    max-width: none;
   }
 }
