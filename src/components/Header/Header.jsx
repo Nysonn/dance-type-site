@@ -24,7 +24,7 @@ function Header() {
     >
       <div className="header__container">
         <a href="/" className="header__logo">
-          R3HAB
+          Dibby Duos
         </a>
 
         <nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}>
